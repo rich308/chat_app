@@ -1,36 +1,29 @@
-# [Messenger Demo App](https://github.com/RTippin/messenger)
+# [Messenger Demo App]
 
 ![Preview](public/examples/image1.png?raw=true)
 
 ---
 
-## Included addon packages:
-- UI / Web routes [messenger-ui](https://github.com/RTippin/messenger-ui)
-- Ready-made bots [messenger-bots](https://github.com/RTippin/messenger-bots)
-- Faker commands [messenger-faker](https://github.com/RTippin/messenger-faker)
-- Janus media server client [janus-client](https://github.com/RTippin/janus-client)
-
-## Checkout the [LIVE DEMO](https://tippindev.com)
+## Checkout the [LIVE DEMO]
 
 ### Prerequisites
 - PHP >= 8.0.2
 - Laravel >= 9.x
 - MySQL >= 8.x
-- [PHPREDIS](https://github.com/phpredis/phpredis/blob/develop/INSTALL.markdown) if using `redis` for drivers, which our default `.env.example` has set.
+- [PHPREDIS]if using `redis` for drivers, which our default `.env.example` has set.
 
 ### Notes
 - This demo is meant to be seeded before use. Registration also assumes a pre-seeded database, as we automatically create threads between the admin user and a newly registered user, as well as set friendships.
-- Calling will be disabled by default. Even though we have our [janus-client](https://github.com/RTippin/janus-client) installed, you are responsible for setting up your own `Janus Server`.
-- Please see [Janus official docs](https://janus.conf.meetecho.com/docs/index.html) for more information.
-- We use `pusher.com` by default for our websocket implementation, however you may choose to use the drop-in replacement [laravel-websockets](https://beyondco.de/docs/laravel-websockets/getting-started/introduction)
-
+- Calling will be disabled by default. Even though we have our [janus-client] installed, you are responsible for setting up your own `Janus Server`.
+- Please see [Janus official docs] for more information.
+- We use `pusher.com` by default for our websocket implementation, however you may choose to use the drop-in replacement [laravel-websockets]
 ---
 
 # Installation
 
 #### Clone or download this repository
 ```bash
-git clone git@github.com:RTippin/messenger-demo.git
+git clone .........................
 ```
 
 #### Composer install
@@ -86,8 +79,7 @@ php artisan queue:work --queue=messenger,messenger-bots
 ---
 
 ## UI configurations / Websockets
-- If you plan to use [laravel-websockets](https://beyondco.de/docs/laravel-websockets/getting-started/introduction), or want more information regarding our UI, please visit our documentation:
-  - [Messenger UI README](https://github.com/RTippin/messenger-ui/blob/master/README.md)
+- If you plan to use [laravel-websockets], or want more information regarding our UI, please visit our documentation:
 
 ---
 
